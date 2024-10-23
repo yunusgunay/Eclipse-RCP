@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: com.example.chess.core
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.example.chess.core.icon,
+ com.example.chess.core.model,
+ com.example.chess.core.model.piece
+Bundle-Vendor: EXAMPLE
+Automatic-Module-Name: com.example.chess.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.eclipse.swt.graphics,
+ org.eclipse.swt.widgets
